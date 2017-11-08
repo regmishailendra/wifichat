@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:title="Delete"
+        android:id="@+id/delete_message"/>
+
+
+<item
+    android:title="Copy Text"
+    android:id="@+id/copytext_message"/>
+
+
+    <item
+        android:title="Details"
+        android:id="@+id/details_message"/>
+
+
+</menu>

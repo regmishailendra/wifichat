@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1cfcf">
+
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center_horizontal"
+      android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="2dp"
+          android:background="#000000"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name-"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:textSize="18sp"/>
+            <EditText
+                android:layout_width="150dp"
+                android:layout_margin="3dp"
+                android:hint="Your group name"
+                android:layout_height="wrap_content"
+                android:id="@+id/groupName"/>
+
+
+
+
+        </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:gravity="center_horizontal">
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Create"
+          android:id="@+id/createGroup"/>
+      </LinearLayout>
+
+
+
+
+  </LinearLayout>
+</LinearLayout>
